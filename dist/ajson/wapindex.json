@@ -1,0 +1,34 @@
+[
+    {
+        "classid": 401,
+        "classname": "新闻"
+    },
+    {
+        "classid": 402,
+        "classname": "财经"
+    },
+    {
+        "classid": 403,
+        "classname": "体育"
+    },
+    {
+        "classid": 404,
+        "classname": "娱乐"
+    },
+    {
+        "classid": 405,
+        "classname": "军事"
+    },
+    {
+        "classid": 406,
+        "classname": "教育"
+    },
+    {
+        "classid": 407,
+        "classname": "育儿"
+    },
+    {
+        "classid": 408,
+        "classname": "科技"
+    }
+]
