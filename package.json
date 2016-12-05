@@ -39,7 +39,7 @@
     "webpack-zepto": "^0.0.1"
   },
   "scripts": {
-    "build": "webpack  --profile --progress --colors --display-error-details",
+    "build": "webpack  --define process.env.NODE_ENV='\"production\"' --profile --progress --colors --display-error-details",
     "dev": "webpack  --display-modules --profile --progress --colors --display-error-details",
     "start": "webpack-dev-server"
   },

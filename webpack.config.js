@@ -175,6 +175,7 @@ var plugins = [
          * （代理的标识）
          * */
         __DEVAPI__: devServer ? "/devApi/" : "''",
+
     }),
 
     new webpack.ProvidePlugin({
