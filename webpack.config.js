@@ -317,5 +317,5 @@ module.exports = validate(config);
 
 
 
-
+// 注：展示页 加载数据地址改为同级目录后run build 再把ajson 放入dist内 上传分页
 
