@@ -42,7 +42,7 @@ class User extends Component {
                         <li>
                             <Link to="#">
                                 <div className="font">
-                                    <i className="iconfont icon-xiaoxi"></i>
+                                    <i className="iconfont icon-wodexiaoxi"></i>
                                 </div>
                                 <div className="tit">我的消息</div>
                                 <div className="arrow">
@@ -53,7 +53,7 @@ class User extends Component {
                         <li>
                             <Link to="#">
                                 <div className="font">
-                                    <i className="iconfont icon-xiaoxi"></i>
+                                    <i className="iconfont icon-1111103"></i>
                                 </div>
                                 <div className="tit">我的收藏</div>
                                 <div className="arrow">
@@ -66,7 +66,7 @@ class User extends Component {
                         <li>
                             <Link to="#">
                                 <div className="font">
-                                    <i className="iconfont icon-shezhi"></i>
+                                    <i className="iconfont icon-baitianmoshi"></i>
                                 </div>
                                 <div className="tit">夜间模式</div>
                                 <div className="arrow">
@@ -88,7 +88,7 @@ class User extends Component {
                         <li>
                             <Link to="#">
                                 <div className="font">
-                                    <i className="iconfont icon-shezhi"></i>
+                                    <i className="iconfont icon-fankui"></i>
                                 </div>
                                 <div className="tit">意见反馈</div>
                                 <div className="arrow">
@@ -101,7 +101,7 @@ class User extends Component {
                         <li>
                             <Link to="#">
                                 <div className="font">
-                                    <i className="iconfont icon-lianxi"></i>
+                                    <i className="iconfont icon-lianxikefu"></i>
                                 </div>
                                 <div className="tit">联系我们</div>
                                 <div className="arrow">

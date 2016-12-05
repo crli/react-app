@@ -34,7 +34,7 @@ export default class Login extends Component {
                 <div className="login">
                     <div className="line">
                         <div className="key">
-                            <i className="iconfont icon-xiaoxi"></i>
+                            <i className="iconfont icon-shouji"></i>
                         </div>
                         <div className="value">
                             <input type="text" defaultValue={logname} placeholder="手机或邮箱" onInput={(e) => { this.state.logname = e.target.value; } } />
@@ -42,7 +42,7 @@ export default class Login extends Component {
                     </div>
                     <div className="line">
                         <div className="key">
-                            <i className="iconfont icon-xiaoxi"></i>
+                            <i className="iconfont icon-mima"></i>
                         </div>
                         <div className="value">
                             <input type="password" defaultValue={logpass} placeholder="密码"  onInput={(e) => { this.state.logpass = e.target.value; } } />

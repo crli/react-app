@@ -8,7 +8,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Header leftIcon="fanhui" title="关于" />
+                <Header leftIcon="llmainpageback" title="关于" />
                 <div className="about">
                     <div>项目地址：<a href="https://github.com/crli/react-app" target="_blank">https://github.com/crli/react-app</a></div>
                 </div>

@@ -140,7 +140,7 @@ class Index extends Component {
         if (this.classid !== config.indexClassId) {
             index = 1;
             leftTo = '/Menu';
-            leftIcon = 'fanhui';
+            leftIcon = 'llmainpageback';
         }
 
         return (

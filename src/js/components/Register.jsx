@@ -37,7 +37,7 @@ export default class Register extends Component {
                 <div className="login">
                     <div className="line">
                         <div className="key" >
-                            <i className="iconfont icon-xiaoxi"></i>
+                            <i className="iconfont icon-shouji"></i>
                         </div>
                         <div className="value">
                             <input type="text" defaultValue={tousername} placeholder="手机号码" onInput={(e) => { this.state.tousername = e.target.value; } } />
@@ -45,7 +45,7 @@ export default class Register extends Component {
                     </div>
                     <div className="line">
                         <div className="key" >
-                            <i className="iconfont icon-xiaoxi"></i>
+                            <i className="iconfont icon-nicheng"></i>
                         </div>
                         <div className="value">
                             <input type="text" defaultValue={tonickname} placeholder="昵称" onInput={(e) => { this.state.tonickname = e.target.value; } } />
@@ -53,7 +53,7 @@ export default class Register extends Component {
                     </div>
                     <div className="line" >
                         <div className="key" >
-                            <i className="iconfont icon-xiaoxi"></i>
+                            <i className="iconfont icon-youxiang"></i>
                         </div>
                         <div className="value">
                             <input type="text" defaultValue={topassword} placeholder="邮箱" onInput={(e) => { this.state.topassword = e.target.value; } } />
@@ -61,7 +61,7 @@ export default class Register extends Component {
                     </div>
                     <div className="line" >
                         <div className="key" >
-                            <i className="iconfont icon-xiaoxi"></i>
+                            <i className="iconfont icon-mima"></i>
                         </div>
                         <div className="value">
                             <input type="password" defaultValue={toemail} placeholder="密码"  onInput={(e) => { this.state.toemail = e.target.value; } } />

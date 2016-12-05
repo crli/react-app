@@ -36,7 +36,7 @@ class ArticleId extends Component {
 
         return (
             <div>
-                <Header leftTo="/" leftIcon="fanhui" title="详情" />
+                <Header leftTo="/" leftIcon="llmainpageback" title="详情" />
                 {main}
             </div>
         );
