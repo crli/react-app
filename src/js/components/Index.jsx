@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 import { connect } from 'react-redux';
 import action from '../actions/action';
 
-import {Header, Footer, Loading} from './common/index';
+import {Header, Footer, Loading} from './common/common';
 
 import Tool from '../../libs/tools/Tool';
 import Next from '../../libs/tools/Next';

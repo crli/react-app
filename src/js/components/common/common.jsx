@@ -14,7 +14,7 @@ export class Header extends Component {
                     <i className={'iconfont icon-' + leftIcon}></i>
                 </Link>
             );
-        } else if (leftIcon === 'fanhui') { //返回上一页
+        } else if (leftIcon === 'llmainpageback') { //返回上一页
             left = (
                 <a onClick={this.context.router.goBack}>
                     <i className={'iconfont icon-' + leftIcon}></i>

@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 
 import Tool from '../../libs/tools/Tool';
 import config from '../config/config';
-import {Header, Footer} from './common/index';
+import {Header, Footer} from './common/common';
 
 
 export default class Login extends Component {
@@ -30,7 +30,7 @@ export default class Login extends Component {
         let {logname, logpass} = this.state;
         return (
             <div>
-                <Header leftIcon="fanhui" title="登录" />
+                <Header leftIcon="llmainpageback" title="登录" />
                 <div className="login">
                     <div className="line">
                         <div className="key">

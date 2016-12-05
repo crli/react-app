@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router';
 
 import config from '../config/config';
-import {Header} from './common/index';
+import {Header} from './common/common';
 
 class About extends Component {
     render() {

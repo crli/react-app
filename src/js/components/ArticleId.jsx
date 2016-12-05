@@ -5,7 +5,7 @@ import action from '../actions/action';
 
 import Tool from '../../libs/tools/Tool';
 import config from '../config/config';
-import {Header, Loading} from './common/index';
+import {Header, Loading} from './common/common';
 
 class ArticleId extends Component {
     constructor(props) {

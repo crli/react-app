@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 
 import Tool from '../../libs/tools/Tool';
 import config from '../config/config';
-import {Header} from './common/index';
+import {Header} from './common/common';
 
 
 export default class Register extends Component {
@@ -33,7 +33,7 @@ export default class Register extends Component {
         let { tousername, tonickname, topassword, toemail, codecheck } = this.state;
         return (
             <div>
-                <Header leftIcon="fanhui" title="注册" />
+                <Header leftIcon="llmainpageback" title="注册" />
                 <div className="login">
                     <div className="line">
                         <div className="key" >

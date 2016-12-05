@@ -6,7 +6,7 @@ import action from '../actions/action';
 
 import Tool from '../../libs/tools/Tool';
 import config from '../config/config';
-import {Header, Footer, Loading} from './common/index';
+import {Header, Footer, Loading} from './common/common';
 
 class Menu extends Component {
     constructor(props) {

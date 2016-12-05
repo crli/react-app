@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router';
 
-import {Header, Footer} from './common/index';
+import {Header, Footer} from './common/common';
 class User extends Component {
     render() {
         return (
