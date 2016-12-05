@@ -7,7 +7,7 @@ import store from './js/store/store';
 
 import './libs/css/normalize';
 import 'indexcss'; 
-import './font/iconfont'; 
+import './font/iconfont.css'; 
 
 store.subscribe(function () {
     // console.log(store.getState())
