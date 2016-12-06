@@ -9,9 +9,12 @@
 
 ## Demo & Examples
 
-Live demo: [http://crli.github.io/react-app/](http://crli.github.io/react-app/)
-To build the examples locally, run:
+Live demo: 
 
+pc：[http://crli.github.io/react-app/](http://crli.github.io/react-app/)
+
+mobile：
+![移动端扫码预览](http://crlin.com/images/react.png)
 ```
 npm install
 npm start
