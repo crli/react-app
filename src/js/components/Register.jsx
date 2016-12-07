@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router';
+import {Link, hashHistory} from 'react-router';
 
 import Tool from '../../libs/tools/Tool';
 import config from '../config/config';
@@ -20,12 +20,13 @@ export default class Register extends Component {
         };
 
         this.submit = () => {
-            Tool.post('', this.state, (text) => {
-                alert(text);
-                console.log(text);
-            }, () => {
-                console.log('注册失败');
-            });
+            // Tool.post('', this.state, (text) => {
+            //     alert(text);
+            //     console.log(text);
+            // }, () => {
+            //     console.log('注册失败');
+            // });
+            hashHistory.push("/")
         }
 
     }

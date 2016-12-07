@@ -12,7 +12,7 @@ const start = {
 /*
     分类最新列表数据
 */
-const classNewList = (state = { def: start, classid: {}}, action) => {
+const classNewList = (state = { def: start, classid: {}}, action = {}) => {
     /*    
         {
             _ID: 'classNewList',
@@ -73,7 +73,7 @@ const classNewList = (state = { def: start, classid: {}}, action) => {
 /*
     分类导航
 */
-const classMenuList = (state = start, action) => {
+const classMenuList = (state = start, action= {}) => {
     /*
         {
             loadMsg: '正在加载中',
