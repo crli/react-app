@@ -114,6 +114,7 @@ header{
     .msg {
         line-height: 1.09375rem;
         text-align: center;
+        @include font-dpr(12px);
     }
 }
 
@@ -159,11 +160,13 @@ header{
         .content{
             color: #555;
             padding-bottom: 0.15625rem;
+            @include font-dpr(12px);
         }
     }
     .article-bottom{
         display:flex;
         justify-content:space-between;
+        @include font-dpr(12px);
     }
 }
 /*
@@ -182,6 +185,7 @@ footer{
         flex-wrap: nowrap;
         li{
             flex-grow:1;
+            @include font-dpr(12px);
             a{
                 display:block;
                 padding:0.078125rem 0;
@@ -198,6 +202,7 @@ footer{
         }
         .iconfont{
             display:block;
+            @include font-dpr(12px);
         }
     }
 }
@@ -214,12 +219,14 @@ footer{
         float: left;
         width: 25%;
         margin-bottom: 0.3125rem;
+
         a {
             display: block;
             text-align: center;
             font-size: 14px;
             font-weight: bolder;
             color: #222;
+            @include font-dpr(12px);
         }
     }
 }
@@ -231,18 +238,18 @@ footer{
     padding: 0 0.15625rem;
     h2 {
         font-weight: bolder;
-        font-size: 16px;
+        @include font-dpr(14px);
         color: #222;
         margin: 0.15625rem 0;
     }
     .see {
         margin: 0.15625rem 0;
-        font-size: 12px;
+        @include font-dpr(12px);
         color: #999;
     }
     article {
         padding: 10px 0;
-        font-size: 14px;
+        @include font-dpr(12px);
         color: #666;
         img{
             width:100%;
@@ -256,8 +263,11 @@ footer{
 .user{
     background: #f5f5f5;
     i{
-        line-height: 1;
-        height:100%;
+        @include font-dpr(12px);
+        .iconfont{
+            position: relative;
+            top: -1px
+        }
     }
     .head{
         height:2.34375rem;
@@ -285,11 +295,13 @@ footer{
                 margin-left: 0.46875rem;
                 flex-grow:1;
                 line-height:1.5625rem; 
-                color:#222
+                color:#222;
+                @include font-dpr(12px);
             }
             .arrow{
                 @include arrow;
                 line-height:1.5625rem;
+
             }
         }
        
@@ -306,7 +318,15 @@ footer{
             a{
                 display:inline-block;
                 width:100%;
-                color:#222
+                color:#222;
+                @include font-dpr(12px);
+                .logins-item{
+                    display:inline-block;
+                }
+                .logins-tit{
+                    display:inline-block;
+                    padding-left: 0.09375rem;
+                }
             }
         }
     }
@@ -329,6 +349,7 @@ footer{
             }
             .tit{
                 flex-grow:1;
+                @include font-dpr(14px);
             }
             .arrow{
                 @include arrow;
@@ -342,10 +363,9 @@ footer{
 
 .login{
     margin:1.5625rem 0.78125rem;
-    
     i{
-        line-height: 1;
-        height:100%;
+        @include font-dpr(12px);
+
     }
     .line{
         height:1.25rem;
@@ -368,6 +388,8 @@ footer{
                 background:#f5f5f5;
                 padding-left: 0.078125rem;
                 margin-left: -0.078125rem;
+                @include font-dpr(12px);
+                 line-height: 1.25rem;
             }
         }
         @for $i from 1 through 3 {
@@ -401,6 +423,7 @@ footer{
         text-align: center;
         color:#fff;
         cursor: pointer;
+        @include font-dpr(12px);
     }
     .forget{
         margin:0 0 0.78125rem;
@@ -412,6 +435,7 @@ footer{
             line-height: 1.25rem;
             text-align: center;
             cursor: pointer;
+            @include font-dpr(12px);
         }
     }
 }

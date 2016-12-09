@@ -21,10 +21,20 @@ class User extends Component {
                     </div>
                     <div className="logins">
                         <div className="item">
-                            <Link to="/login">登录</Link>
+                            <Link to="/login">
+                                <div className="logins-item">
+                                    <i className="iconfont icon-denglu"></i>
+                                </div>
+                                <div className="logins-tit">登录</div>
+                            </Link>
                         </div>
                         <div className="item">
-                            <Link to="/register">注册</Link>
+                            <Link to="/register"> 
+                                <div className="logins-item">
+                                    <i className="iconfont icon-zhuche"></i>
+                                </div>
+                                <div className="logins-tit">注册</div>
+                            </Link>
                         </div>
                     </div>
                     <ul className="nav">
