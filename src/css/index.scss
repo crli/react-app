@@ -264,10 +264,7 @@ footer{
     background: #f5f5f5;
     i{
         @include font-dpr(12px);
-        .iconfont{
-            position: relative;
-            top: -1px
-        }
+        
     }
     .head{
         height:2.34375rem;
@@ -346,6 +343,10 @@ footer{
             .font{
                 width:0.9375rem;
                 text-align: center;
+                .iconfont:before{
+                    position: relative;
+                    top: -2px
+                }
             }
             .tit{
                 flex-grow:1;
