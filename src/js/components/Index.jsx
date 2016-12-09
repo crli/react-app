@@ -42,6 +42,7 @@ class Index extends Component {
             };
             window.scrollTo(classid.scrollX, classid.scrollY); //设置滚动条位置
             if (!classid.NextBtn) return false; //已经全部加载完成分页了，无需重新加载
+            var num;
             this.newNext = new Next(this.refs.dataload, {
                 url: (__DEVAPI__+"../ajson/list.json"),
                 data: data,
@@ -55,26 +56,29 @@ class Index extends Component {
                     var datas = [];
                     let regid = /classid=/;
                     if(regid.test(window.location.href)){
+                        num = 1;
                         const classId = window.location.href.split("classid=")[1];
                         for(var i in data[0]){
                             datas = datas.concat(data[0][i]);
                         }
-                        const aData = datas.filter((item)=> {
+                        window.aData = datas.filter((item)=> {
                             return item.book_classid == classId        
                         })
-                        datas = aData;
+                        datas = window.aData;
                     }else{
                         //模拟后端分页
-                        var aPage = data[0][classid.page];
-                        if(!aPage){
-                            aPage = data[0][classid.page-1];
-                            classid.page--
-                        }
-                        datas = aPage;
+                        if(num){
+                            datas = window.aData;
+                        }else{
+                            var aPage = data[0][classid.page];
+                            if(!aPage){
+                                aPage = data[0][classid.page-1];
+                                classid.page--
+                            }
+                            datas = aPage;
+                        }                       
                     }
                     
-      
-
                     classid.page++;
                     if (classid.data && datas && classid.data[classid.data.length - 1].id == datas[datas.length - 1].id || !datas) {
                         classid.loadState = 2;

@@ -16,9 +16,9 @@ export class Header extends Component {
             );
         } else if (leftIcon === 'llmainpageback') { //返回上一页
             left = (
-                <a onClick={this.context.router.goBack}>
+                <Link onClick={this.context.router.goBack}>
                     <i className={'iconfont icon-' + leftIcon}></i>
-                </a>
+                </Link>
             );
         }
       
